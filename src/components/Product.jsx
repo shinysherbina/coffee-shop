@@ -1,8 +1,8 @@
 import React from "react";
 
 function Product(props) {
-  const starFill = `${process.env.PUBLIC_URL}/images/star_fill.svg`;
-  const star = `${process.env.PUBLIC_URL}/images/star.svg`;
+  const starFill = `${process.env.PUBLIC_URL}/images/Star_fill.svg`;
+  const star = `${process.env.PUBLIC_URL}/images/Star.svg`;
 
   return (
     <div className="product-card dm-sans">
@@ -21,7 +21,7 @@ function Product(props) {
           <div className="rating">
             <img className="star" src={starFill} alt="yellow star" />
             <span className="dm-sans-label medium">
-              {props.item.rating * 1.0}
+              {props.item.rating}
               <span className="dim"> ({props.item.votes} votes)</span>
             </span>
           </div>
