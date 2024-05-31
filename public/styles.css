@@ -55,8 +55,8 @@ body {
   background-position: top right;
   background-size: auto;
   width: 500px;
-  margin: auto;
-  margin-top: 10px;
+  /* margin: auto; */
+  margin-top: 10px auto;
   padding: 50px 0px 10px 0px;
 }
 
