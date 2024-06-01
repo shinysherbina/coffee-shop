@@ -1,3 +1,5 @@
+This project is live at https://shinysherbina.github.io/coffee-shop/ . This project uses React to design a functional website for a coffee shop. It lists "All Products" or "Available" ones with the click of a button. This uses public API to fetch the details.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
