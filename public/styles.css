@@ -65,14 +65,15 @@ body {
     width: 400px;
   }
 }
-.collection-intro {
+/* .collection-intro {
   display: flex;
   flex-direction: column;
   position: absolute;
   width: 30em;
   margin: auto;
   margin-top: 10px;
-}
+  margin-bottom: 10px;
+} */
 
 .select-buttons {
   color: #fef7ee;
@@ -180,6 +181,7 @@ p {
 }
 .dm-sans-heading {
   font-size: 2rem;
+  padding: 5px;
 }
 
 .dm-sans-body {
